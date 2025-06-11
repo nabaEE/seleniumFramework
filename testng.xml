@@ -1,4 +1,7 @@
 <suite name="ParallelTests" parallel="tests" thread-count="2">
+    <listeners>
+     <listener class-name="listener.ListenerClass"/>
+    </listeners>>
     <test name="Chrome Test">
         <parameter name="browser" value="chrome"/>
         <classes>

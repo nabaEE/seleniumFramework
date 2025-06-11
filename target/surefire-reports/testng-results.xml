@@ -1,45 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-11T10:14:44 IST" name="tests.LoginPageTest" finished-at="2025-06-11T10:14:45 IST" duration-ms="821">
+  <suite started-at="2025-06-11T23:40:19 IST" name="ParallelTests" finished-at="2025-06-11T23:40:31 IST" duration-ms="12458">
     <groups>
     </groups>
-    <test started-at="2025-06-11T10:14:44 IST" name="Command line test" finished-at="2025-06-11T10:14:45 IST" duration-ms="821">
+    <test started-at="2025-06-11T23:40:19 IST" name="Chrome Test" finished-at="2025-06-11T23:40:28 IST" duration-ms="8596">
       <class name="tests.LoginPageTest">
-        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:tests.LoginPageTest@2a27cb34]" started-at="2025-06-11T10:14:44 IST" name="launchBrowser" finished-at="2025-06-11T10:14:44 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method is-config="true" signature="browserLaunchForEachTest()[pri:0, instance:tests.LoginPageTest@2a27cb34]" started-at="2025-06-11T10:14:44 IST" name="browserLaunchForEachTest" finished-at="2025-06-11T10:14:45 IST" duration-ms="511" status="PASS">
+        <test-method is-config="true" signature="browserLaunchForEachTest(java.lang.String)[pri:0, instance:tests.LoginPageTest@74e52303]" started-at="2025-06-11T23:40:19 IST" name="browserLaunchForEachTest" finished-at="2025-06-11T23:40:22 IST" duration-ms="2571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchForEachTest -->
-        <test-method signature="checkDashboardUrl()[pri:0, instance:tests.LoginPageTest@2a27cb34]" started-at="2025-06-11T10:14:45 IST" name="checkDashboardUrl" finished-at="2025-06-11T10:14:45 IST" duration-ms="14" status="PASS">
+        <test-method signature="checkDashboardUrl()[pri:0, instance:tests.LoginPageTest@74e52303]" started-at="2025-06-11T23:40:22 IST" name="checkDashboardUrl" finished-at="2025-06-11T23:40:22 IST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDashboardUrl -->
-        <test-method is-config="true" signature="browserLaunchForEachTest()[pri:0, instance:tests.LoginPageTest@2a27cb34]" started-at="2025-06-11T10:14:45 IST" name="browserLaunchForEachTest" finished-at="2025-06-11T10:14:45 IST" duration-ms="93" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginPageTest@74e52303]" started-at="2025-06-11T23:40:22 IST" name="closeBrowser" finished-at="2025-06-11T23:40:22 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunchForEachTest(java.lang.String)[pri:0, instance:tests.LoginPageTest@74e52303]" started-at="2025-06-11T23:40:22 IST" name="browserLaunchForEachTest" finished-at="2025-06-11T23:40:24 IST" duration-ms="1953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchForEachTest -->
-        <test-method signature="verifyPageHeading()[pri:0, instance:tests.LoginPageTest@2a27cb34]" started-at="2025-06-11T10:14:45 IST" name="verifyPageHeading" finished-at="2025-06-11T10:14:45 IST" duration-ms="77" status="PASS">
+        <test-method signature="verifyPageHeading()[pri:0, instance:tests.LoginPageTest@74e52303]" started-at="2025-06-11T23:40:24 IST" name="verifyPageHeading" finished-at="2025-06-11T23:40:24 IST" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPageHeading -->
-        <test-method is-config="true" signature="browserLaunchForEachTest()[pri:0, instance:tests.LoginPageTest@2a27cb34]" started-at="2025-06-11T10:14:45 IST" name="browserLaunchForEachTest" finished-at="2025-06-11T10:14:45 IST" duration-ms="69" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginPageTest@74e52303]" started-at="2025-06-11T23:40:25 IST" name="closeBrowser" finished-at="2025-06-11T23:40:25 IST" duration-ms="369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunchForEachTest(java.lang.String)[pri:0, instance:tests.LoginPageTest@74e52303]" started-at="2025-06-11T23:40:25 IST" name="browserLaunchForEachTest" finished-at="2025-06-11T23:40:27 IST" duration-ms="1825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserLaunchForEachTest -->
-        <test-method signature="verifyTitle()[pri:0, instance:tests.LoginPageTest@2a27cb34]" started-at="2025-06-11T10:14:45 IST" name="verifyTitle" finished-at="2025-06-11T10:14:45 IST" duration-ms="23" status="PASS">
+        <test-method signature="verifyTitle()[pri:0, instance:tests.LoginPageTest@74e52303]" started-at="2025-06-11T23:40:27 IST" name="verifyTitle" finished-at="2025-06-11T23:40:27 IST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginPageTest@2a27cb34]" started-at="2025-06-11T10:14:45 IST" name="closeBrowser" finished-at="2025-06-11T10:14:45 IST" duration-ms="435" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginPageTest@74e52303]" started-at="2025-06-11T23:40:27 IST" name="closeBrowser" finished-at="2025-06-11T23:40:28 IST" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- tests.LoginPageTest -->
-    </test> <!-- Command line test -->
-  </suite> <!-- tests.LoginPageTest -->
+    </test> <!-- Chrome Test -->
+    <test started-at="2025-06-11T23:40:19 IST" name="Edge Test" finished-at="2025-06-11T23:40:31 IST" duration-ms="12458">
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="browserLaunchForEachTest(java.lang.String)[pri:0, instance:tests.LoginPageTest@6f1de4c7]" started-at="2025-06-11T23:40:19 IST" name="browserLaunchForEachTest" finished-at="2025-06-11T23:40:23 IST" duration-ms="3980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchForEachTest -->
+        <test-method signature="checkDashboardUrl()[pri:0, instance:tests.LoginPageTest@6f1de4c7]" started-at="2025-06-11T23:40:23 IST" name="checkDashboardUrl" finished-at="2025-06-11T23:40:23 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDashboardUrl -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginPageTest@6f1de4c7]" started-at="2025-06-11T23:40:23 IST" name="closeBrowser" finished-at="2025-06-11T23:40:24 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunchForEachTest(java.lang.String)[pri:0, instance:tests.LoginPageTest@6f1de4c7]" started-at="2025-06-11T23:40:24 IST" name="browserLaunchForEachTest" finished-at="2025-06-11T23:40:27 IST" duration-ms="3351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchForEachTest -->
+        <test-method signature="verifyPageHeading()[pri:0, instance:tests.LoginPageTest@6f1de4c7]" started-at="2025-06-11T23:40:27 IST" name="verifyPageHeading" finished-at="2025-06-11T23:40:27 IST" duration-ms="76" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageHeading -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginPageTest@6f1de4c7]" started-at="2025-06-11T23:40:27 IST" name="closeBrowser" finished-at="2025-06-11T23:40:28 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserLaunchForEachTest(java.lang.String)[pri:0, instance:tests.LoginPageTest@6f1de4c7]" started-at="2025-06-11T23:40:28 IST" name="browserLaunchForEachTest" finished-at="2025-06-11T23:40:31 IST" duration-ms="3190" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunchForEachTest -->
+        <test-method signature="verifyTitle()[pri:0, instance:tests.LoginPageTest@6f1de4c7]" started-at="2025-06-11T23:40:31 IST" name="verifyTitle" finished-at="2025-06-11T23:40:31 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:tests.LoginPageTest@6f1de4c7]" started-at="2025-06-11T23:40:31 IST" name="closeBrowser" finished-at="2025-06-11T23:40:31 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.LoginPageTest -->
+    </test> <!-- Edge Test -->
+  </suite> <!-- ParallelTests -->
 </testng-results>
