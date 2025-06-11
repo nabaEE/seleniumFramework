@@ -28,6 +28,7 @@ public class LoginPageTest extends Baseclass {
     baseclass.closeBrowser();
     }
 
+
     @Test
     public void verifyTitle(){
      String title=   DriverCall.getDriver().getTitle();
