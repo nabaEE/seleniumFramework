@@ -2,9 +2,9 @@ package base;
 import org.openqa.selenium.WebDriver;
 
 public class Baseclass extends DriverCall {
-    WebDriver driver = DriverCall.getDriver();
-    public void initiateBrowser() {
-        // Setup WebDriver based on browserName
+    public void initiateBrowser(String browser) {
+        DriverCall.setBrowser(browser); // Set the browser name dynamically
+        WebDriver driver = DriverCall.getDriver();
         driver.get("https://www.selenium.dev/");
         driver.manage().window().maximize();
     }
