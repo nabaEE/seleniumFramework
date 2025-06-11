@@ -2,6 +2,7 @@ package tests;
 
 import base.Baseclass;
 import base.DriverCall;
+import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import utilities.CommonMethods;
@@ -12,22 +13,17 @@ public class LoginPageTest extends Baseclass {
     Baseclass baseclass;
     CommonMethods commonMethods;
     Locators locators;
+    @Parameters("browser")
     @BeforeMethod
-    public void browserLaunchForEachTest(){
+    public void browserLaunchForEachTest(String browser){
         baseclass= new Baseclass();
-        baseclass.initiateBrowser();
+        baseclass.initiateBrowser(browser);
         commonMethods= new CommonMethods();
         locators = new Locators();
         System.out.println("URL loaded");
     }
 
-
-    @BeforeSuite
-    public void launchBrowser(){
-     System.out.println("Browser launched");
-    }
-
-    @AfterSuite
+    @AfterMethod
     public void closeBrowser(){
     baseclass.closeBrowser();
     }
